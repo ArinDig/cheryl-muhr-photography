@@ -145,7 +145,7 @@ p {
 .nav-menu ul {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 45px;
     padding: 12px 0;
     border-top: 1px solid rgba(107, 107, 107, 0.2);
     border-bottom: 1px solid rgba(107, 107, 107, 0.2);
@@ -153,7 +153,7 @@ p {
 
 .nav-menu a {
     font-family: var(--font-secondary);
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     font-weight: 400;
     letter-spacing: 1.5px;
     text-transform: uppercase;
