@@ -1,0 +1,29 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup Files
+*.bak
+*backup.*
+
+# Log Files
+*.log
+
+# Optional: Uncomment if you want to keep local images private
+# images/*.jpg
+# images/*.jpeg
+# images/*.png
+# !images/README.md
+
