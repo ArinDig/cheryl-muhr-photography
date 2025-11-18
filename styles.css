@@ -9,7 +9,7 @@
     --light-gray: #f8f8f8;
     --border-color: #e5e5e5;
     
-    --font-primary: 'Cormorant Garamond', serif;
+    --font-primary: 'Cormorant', serif;
     --font-secondary: 'Montserrat', sans-serif;
     
     --transition: all 0.3s ease;
@@ -137,9 +137,9 @@ p {
 
 .logo a {
     font-family: var(--font-primary);
-    font-size: 1.5rem;
-    font-weight: 400;
-    letter-spacing: 1px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: 2px;
     color: var(--primary-color);
 }
 
@@ -243,10 +243,12 @@ p {
 }
 
 .about-text .intro-text {
-    font-size: 1.1rem;
+    font-family: var(--font-primary);
+    font-size: 1.2rem;
     color: var(--primary-color);
     margin-bottom: 20px;
     font-style: italic;
+    font-weight: 300;
 }
 
 .about-text p {
@@ -273,8 +275,11 @@ p {
 }
 
 .section-header p {
-    font-size: 1.1rem;
+    font-family: var(--font-primary);
+    font-size: 1.2rem;
     color: var(--secondary-color);
+    font-style: italic;
+    font-weight: 300;
 }
 
 .portfolio-grid {
@@ -308,7 +313,9 @@ p {
 }
 
 .section-description p {
-    font-size: 1.05rem;
+    font-family: var(--font-primary);
+    font-size: 1.1rem;
+    font-weight: 300;
     line-height: 1.8;
 }
 
@@ -353,7 +360,10 @@ p {
 }
 
 .pricing-description {
+    font-family: var(--font-primary);
     font-style: italic;
+    font-size: 1.05rem;
+    font-weight: 300;
     margin-bottom: 20px;
     color: var(--primary-color);
 }
