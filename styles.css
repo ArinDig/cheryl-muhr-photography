@@ -146,7 +146,10 @@ p {
 .nav-menu ul {
     display: flex;
     list-style: none;
-    gap: 15px;
+    gap: 30px;
+    padding: 12px 0;
+    border-top: 1px solid rgba(107, 107, 107, 0.2);
+    border-bottom: 1px solid rgba(107, 107, 107, 0.2);
 }
 
 .nav-menu a {
@@ -156,19 +159,6 @@ p {
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: var(--primary-color);
-    padding: 8px 4px;
-    border-bottom: 1px solid rgba(107, 107, 107, 0.3);
-    transition: var(--transition);
-}
-
-.nav-menu a:hover {
-    border-bottom-color: var(--primary-color);
-    color: var(--primary-color);
-}
-
-.nav-menu a.active {
-    color: var(--secondary-color);
-    border-bottom-color: rgba(138, 138, 138, 0.2);
 }
 
 .hamburger {
