@@ -162,6 +162,11 @@ p {
     color: var(--primary-color);
 }
 
+.nav-menu a.active {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -188,32 +193,34 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    padding: 100px 20px 80px;
+    padding-top: 120px;
     background-color: var(--white);
 }
 
-.hero-content {
-    max-width: 800px;
+.hero-banner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.hero h1 {
-    margin-bottom: 20px;
+.hero-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
-.hero-subtitle {
-    font-size: 1.2rem;
-    color: var(--secondary-color);
-    margin-bottom: 40px;
-    font-weight: 300;
-    letter-spacing: 0.5px;
+/* Page Sections */
+.page-section {
+    padding-top: 120px;
+    min-height: calc(100vh - 120px);
 }
 
 /* ========================================
    About Section
    ======================================== */
 .about-section {
-    padding: 100px 20px;
+    padding: 120px 20px 100px;
     background-color: var(--light-gray);
 }
 
@@ -251,7 +258,7 @@ p {
    Portfolio Sections
    ======================================== */
 .portfolio-section {
-    padding: 100px 20px;
+    padding: 120px 20px 100px;
     background-color: var(--white);
 }
 
@@ -309,7 +316,7 @@ p {
    Pricing Section
    ======================================== */
 .pricing-section {
-    padding: 100px 20px;
+    padding: 120px 20px 100px;
     background-color: var(--white);
 }
 
@@ -380,7 +387,7 @@ p {
    Contact Section
    ======================================== */
 .contact-section {
-    padding: 100px 20px;
+    padding: 120px 20px 100px;
     background-color: var(--light-gray);
 }
 
