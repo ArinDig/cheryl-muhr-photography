@@ -15,7 +15,7 @@ document.addEventListener('click', (e) => {
         document.body.classList.add('fade-out');
         setTimeout(() => {
             window.location = link.href;
-        }, 400);
+        }, 600);
     }
 });
 
