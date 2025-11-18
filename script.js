@@ -1,3 +1,24 @@
+// Page Fade Transition
+document.addEventListener('DOMContentLoaded', () => {
+    // Fade in on page load
+    document.body.style.opacity = '0';
+    setTimeout(() => {
+        document.body.style.opacity = '1';
+    }, 10);
+});
+
+// Add fade-out effect to all internal links
+document.addEventListener('click', (e) => {
+    const link = e.target.closest('a');
+    if (link && link.href && !link.href.startsWith('#') && link.hostname === window.location.hostname) {
+        e.preventDefault();
+        document.body.classList.add('fade-out');
+        setTimeout(() => {
+            window.location = link.href;
+        }, 400);
+    }
+});
+
 // Mobile Navigation Toggle
 const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('navMenu');
