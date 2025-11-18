@@ -321,6 +321,10 @@ p {
     margin-bottom: 30px;
 }
 
+.about-text .about-title {
+    text-align: left;
+}
+
 .about-text .intro-text {
     font-family: var(--font-primary);
     font-size: 1.2rem;
@@ -333,6 +337,8 @@ p {
 .about-text p {
     margin-bottom: 20px;
     line-height: 1.8;
+    color: var(--secondary-color);
+    font-size: 1.05rem;
 }
 
 /* ========================================
